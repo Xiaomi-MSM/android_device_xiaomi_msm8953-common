@@ -132,6 +132,10 @@ on boot
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
 
+    # IR blaster
+    chown root system /sys/class/leds/infrared/transmit
+    chown root system /sys/class/leds/infrared/brightness
+
 
     chmod 0444 /sys/devices/platform/msm_hsusb/gadget/usb_state
 
