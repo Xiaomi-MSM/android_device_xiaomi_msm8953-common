@@ -15,4 +15,4 @@
 #IR
 /sys/class/leds/infrared/transmit								u:object_r:sysfs_leds:s0
 /sys/class/leds/infrared/brightness								u:object_r:sysfs_leds:s0
-/sys/devices/soc/soc:gpio-leds/leds/infrared/transmit			u:object_r:sysfs:s0
+/sys/devices/soc/soc:gpio-leds/leds/infrared/transmit			u:object_r:sysfs_leds:s0
