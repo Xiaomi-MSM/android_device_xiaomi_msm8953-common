@@ -136,7 +136,6 @@ on boot
     chown root system /sys/class/leds/infrared/transmit
     chown root system /sys/class/leds/infrared/brightness
 
-
     chmod 0444 /sys/devices/platform/msm_hsusb/gadget/usb_state
 
 #   Assign TCP buffer thresholds to be ceiling value of technology maximums
