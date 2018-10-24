@@ -163,8 +163,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0_vendor
 
 # Doze mode
-#PRODUCT_PACKAGES += \
-#    XiaomiDoze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -226,9 +226,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
-# Consumerir
+# ConsumerIr
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_msm8953
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
 
 # Keymaster HAL
 PRODUCT_PACKAGES += \
